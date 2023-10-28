@@ -29,7 +29,7 @@ body {
 .markdownContainer {
   margin: 0 auto;
   padding: 20px;
-
+  width: 80vw;
   border-radius: 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -101,12 +101,12 @@ body {
 }
 
 .markdownContainer th {
-  background-color: #f2f2f2;
-  color: #333;
+  background-color: #222;
+  color: #ffffff;
 }
 
 tbody {
-  background: orange;
+  background: #77684d;
 }
 
 .markdownContainer tr:nth-child(even) {

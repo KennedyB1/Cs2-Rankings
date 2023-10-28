@@ -1,0 +1,118 @@
+body {
+  background-image: url("https://cdn.cloudflare.steamstatic.com/apps/csgo/images/csgo_react/cs2/bgOrange.svg");
+  min-height: 100vh;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+}
+
+.buttonRegion {
+  padding: 10px 20px;
+  margin: 10px 30px;
+  border-radius: 2px;
+  cursor: pointer;
+  width: fit-content;
+  justify-content: center;
+  align-items: center;
+  background-color: #3281ac;
+  transition-duration: 0.2s;
+  border: none;
+  color: white;
+  width: 100px;
+}
+
+.buttonRegion:hover {
+  transform: translateY(0px);
+  background-color: rgba(255, 255, 255, 0.1882352941);
+}
+
+.markdownContainer {
+  margin: 0 auto;
+  padding: 20px;
+
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.markdownContainer p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 15px 0;
+  color: #333;
+}
+
+.markdownContainer h1,
+.markdownContainer h2,
+.markdownContainer h3,
+.markdownContainer h4,
+.markdownContainer h5,
+.markdownContainer h6 {
+  margin-top: 20px;
+  margin-bottom: 15px;
+  color: #222;
+}
+
+.markdownContainer ul,
+.markdownContainer ol {
+  margin-left: 20px;
+}
+
+.markdownContainer li {
+  margin: 8px 0;
+}
+
+.markdownContainer a {
+  color: #0077cc;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.markdownContainer a:hover {
+  color: #0055aa;
+}
+
+.markdownContainer code {
+  background-color: #eee;
+  padding: 2px 5px;
+  border-radius: 4px;
+}
+
+.markdownContainer pre {
+  background-color: #eee;
+  padding: 10px;
+  border-radius: 4px;
+  overflow-x: auto;
+}
+
+/* Table Styling */
+
+.markdownContainer table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  border: 1px solid #ddd;
+}
+
+.markdownContainer th,
+.markdownContainer td {
+  border: 1px solid #ddd;
+  padding: 8px 12px;
+  text-align: left;
+}
+
+.markdownContainer th {
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+tbody {
+  background: orange;
+}
+
+.markdownContainer tr:nth-child(even) {
+  background-color: #7c7575;
+}
+
+.markdownContainer tr:hover {
+  background-color: #000000;
+}

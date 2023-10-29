@@ -1,6 +1,5 @@
 body {
   background-image: url("https://cdn.cloudflare.steamstatic.com/apps/csgo/images/csgo_react/cs2/bgOrange.svg");
-  min-height: 100vh;
   background-size: cover;
   background-attachment: fixed;
   margin: 0;
@@ -8,7 +7,7 @@ body {
 
 .buttonRegion {
   padding: 10px 20px;
-  margin: 10px 30px;
+  margin: 10px;
   border-radius: 2px;
   cursor: pointer;
   width: fit-content;
@@ -29,9 +28,9 @@ body {
 .markdownContainer {
   margin: 0 auto;
   padding: 20px;
-  width: 80vw;
   border-radius: 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: -webkit-center;
 }
 
 .markdownContainer p {
@@ -87,7 +86,8 @@ body {
 /* Table Styling */
 
 .markdownContainer table {
-  width: 100%;
+  /* width: 100%; */
+
   border-collapse: collapse;
   margin-top: 20px;
   border: 1px solid #ddd;
@@ -115,4 +115,31 @@ tbody {
 
 .markdownContainer tr:hover {
   background-color: #000000;
+}
+
+table {
+  table-layout: fixed;
+}
+tbody tr td:last-child[style*="text-align: left;"] {
+  white-space: pre-line;
+  overflow-wrap: break-word;
+}
+
+@media screen and (max-width: 768px) {
+  .markdownContainer {
+    width: auto;
+  }
+}
+@media screen and (max-width: 500px) {
+  .markdownContainer {
+    padding: 0;
+  }
+  .markdownContainer th,
+  .markdownContainer td {
+    padding: 0;
+    text-align: center !important;
+  }
+  tbody tr td:last-child[style*="text-align: left;"] {
+    height: 20vh;
+  }
 }

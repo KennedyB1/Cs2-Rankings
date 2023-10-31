@@ -8,12 +8,12 @@
     "theme_color": "#000000",
     "icons": [
       {
-        "src": "../src/assets/react.svg",
+        "src": "../src/assets/leo.png",
         "type": "image/png",
         "sizes": "192x192"
       },
       {
-        "src": "./src/assets/react.svg",
+        "src": "../src/assets/leo.png",
         "type": "image/png",
         "sizes": "512x512"
       }
